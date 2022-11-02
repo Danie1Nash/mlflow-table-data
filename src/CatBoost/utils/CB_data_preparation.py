@@ -8,6 +8,7 @@ class DataPrepare():
     def __init__(self, path_to_data):
         self.df = pd.read_csv(path_to_data)
 
+    @property
     def preprocess(self):
         self.df['oper_type'] = self.df['oper_type + oper_attr'].apply(lambda x: x.split('_')[0])
         self.df['oper_attr'] = self.df['oper_type + oper_attr'].apply(lambda x: x.split('_')[1])

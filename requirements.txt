@@ -1,0 +1,7 @@
+pandas
+ipykernel
+catboost
+ipywidgets
+sklearn
+python-dotenv
+boto3

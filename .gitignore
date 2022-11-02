@@ -1,0 +1,16 @@
+.ipynb_checkpoints*
+__pycache__*
+
+.vscode/
+.idea/
+.venv/
+
+.env
+
+data/*.csv
+
+weights/**
+log/**
+
+!weights/.gitkeep
+!log/.gitkeep

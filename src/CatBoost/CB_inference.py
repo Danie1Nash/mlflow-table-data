@@ -1,7 +1,7 @@
 import mlflow
 
 
-class CatBoost():
+class CatBoost:
     def __init__(self,
                  logged_model: str = "runs:/781904df5e8d43989ce0909f75b7875b/log/catbost-11-02-2022-18-49-28/models"):
         self.logged_model = logged_model

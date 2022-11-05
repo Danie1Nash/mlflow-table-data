@@ -11,6 +11,11 @@ data/*.csv
 
 weights/**
 log/**
+notebooks/log
+notebooks/mlruns
+
+notebooks/Untitled.ipynb
+notebooks/testing.ipynb
 
 !weights/.gitkeep
 !log/.gitkeep

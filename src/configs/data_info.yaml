@@ -1,0 +1,54 @@
+numeric:
+  weight:
+    max: 158000
+    min: 0
+  transport_pay:
+    max: 830.5
+    min: 0
+  weight_mfi:
+    max: 18000
+    min: 0
+  price_mfi:
+    max: 159705
+    min: 0
+  total_qty_over_index:
+    max: 500251100
+    min: 0
+
+category:
+  type:
+    '0': 0
+    АО: 1
+    АОПП: 2
+    ГОПС: 3
+    ММПО: 4
+    МРП: 5
+    МСО: 6
+    МСЦ: 7
+    ОП: 8
+    ОПП: 9
+    П: 10
+    ПЕРЕДВИЖНОЕ ОС: 11
+    ППС: 12
+    СОПС: 13
+    СЦ: 14
+    ТИ: 15
+    УКД: 16
+    УМСЦ: 17
+    Участок: 18
+    Цех: 19
+  priority:
+  class:
+  is_return:
+    N: 1
+    Y: 2
+  mailtype:
+  mailctg:
+  directctg:
+  postmark:
+  is_wrong_sndr_name:
+  is_wrong_rcpn_name:
+  is_wrong_phone_number:
+  is_wrong_address:
+  oper_type:
+  oper_attr:

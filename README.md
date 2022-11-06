@@ -48,7 +48,7 @@ With the help of MLFlow, the following tasks were solved:
 |XGBoost|0.717|0.584|0.982|0.664144|
 |XGBoost_with_threshold|0.51|0.9|0.973|0.723403|
 
-**Metric_competition** = 0.7*Recall + 0.9*AUC_ROC
+**Metric_competition** = 0.7 * Recall + 0.9 * AUC_ROC
 
 Sentence Bert has worse results than Bert due to the peculiarities of the models. Sentence Bert is used to build embeds and cosine distance is calculated from them, and the names of companies that had similar words will have a similar representation of embeds.
 # Usage

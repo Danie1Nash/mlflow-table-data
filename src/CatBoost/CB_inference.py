@@ -1,11 +1,13 @@
 import mlflow
+import yaml
 
 
-class CatBoost:
-    def __init__(self,
-                 logged_model: str = "runs:/781904df5e8d43989ce0909f75b7875b/log/catbost-11-02-2022-18-49-28/models"):
-        self.logged_model = logged_model
-        self.model = mlflow.catboost.load_model(self.logged_model)
+class CatBoostCLF:
+    def __init__(self):
+        with open('./src/configs/model.yaml') as file:
+            params_model = yaml.safe_load(file)['Catboost']
+
+        self.model = mlflow.catboost.load_model(params_model['logged_model'])
 
     def predict(self, data):
         return self.model.predict(data)

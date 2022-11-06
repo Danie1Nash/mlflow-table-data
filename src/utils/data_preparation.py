@@ -7,7 +7,7 @@ class DataPrepare:
     def __init__(self, path_to_data):
         self.df = pd.read_csv(path_to_data, low_memory=False)
 
-        with open("../src/configs/data_info.yaml", 'r') as file:
+        with open("./src/configs/data_info.yaml", 'r') as file:
             self.data_need = yaml.safe_load(file)
 
         for col in self.df:

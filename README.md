@@ -48,7 +48,7 @@ With the help of MLFlow, the following tasks were solved:
 |XGBoost|0.717|0.584|0.982|0.664144|
 |XGBoost_with_threshold|0.51|0.9|0.973|0.723403|
 
-**Metric_competition** = 0.7 * Recall + 0.9 * AUC_ROC
+**Metric_competition** = 0.1 * Recall + 0.9 * AUC_ROC
 
 # Usage
 We tested three different models:
